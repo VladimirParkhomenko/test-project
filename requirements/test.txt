@@ -1,0 +1,10 @@
+# Test development dependencies go here
+-r base.txt
+
+Faker==0.8.10
+factory-boy==2.10.0
+factory-djoy==0.6.0
+pytest==3.3.2
+pytest-django==3.1.2
+pytest-mock==1.6.3
+pytest-sugar==0.9.0

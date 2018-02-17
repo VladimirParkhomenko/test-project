@@ -1,0 +1,12 @@
+.env
+django.ini
+start.*.sh
+logs/*.log
+logs/emails
+tmp/
+
+.cache/
+.vscode/
+
+.DS_Store
+*.pyc
