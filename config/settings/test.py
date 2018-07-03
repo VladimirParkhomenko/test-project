@@ -2,15 +2,32 @@ from . import *
 
 TESTING = True
 
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": ":memory:",
+#         "TEST_CHARSET": "utf8",
+#     },
+#     "second": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": ":memory:",
+#         "TEST_CHARSET": "utf8",
+#     }
+# }
+
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": ":memory:",
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "bx_db_main",
+        "USER": "bx_db_main",
+        "PASSWORD": "",
         "TEST_CHARSET": "utf8",
     },
     "second": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": ":memory:",
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "gx_db_second",
+        "USER": "gx_db_second",
+        "PASSWORD": "",
         "TEST_CHARSET": "utf8",
     }
 }
